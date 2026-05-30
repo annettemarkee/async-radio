@@ -1,0 +1,6 @@
+build
+.vscode/c_cpp_properties.json
+.settings/bundles-lock.store.json
+.settings/bundles.store.json
+.settings/ide.store.json
+.vscode/settings.json
