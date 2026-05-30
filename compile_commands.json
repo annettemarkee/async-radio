@@ -1,0 +1,212 @@
+[
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_adc_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_uart_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart_ex.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart_ex.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart_ex.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart_ex.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/Core/Src/syscalls.c.obj -c \"/home/annie/Documents/School/Async Radio/Core/Src/syscalls.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Core/Src/syscalls.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/__/Core/Src/syscalls.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/Core/Src/sysmem.c.obj -c \"/home/annie/Documents/School/Async Radio/Core/Src/sysmem.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Core/Src/sysmem.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/__/Core/Src/sysmem.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Drivers.dir/__/Core/Src/system_stm32f0xx.c.obj -c \"/home/annie/Documents/School/Async Radio/Core/Src/system_stm32f0xx.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Core/Src/system_stm32f0xx.c",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/__/Core/Src/system_stm32f0xx.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -x assembler-with-cpp -MMD -MP -g -o CMakeFiles/STM32_Drivers.dir/__/startup_stm32f072xb.s.obj -c \"/home/annie/Documents/School/Async Radio/startup_stm32f072xb.s\"",
+  "file": "/home/annie/Documents/School/Async Radio/startup_stm32f072xb.s",
+  "output": "Drivers/CMakeFiles/STM32_Drivers.dir/__/startup_stm32f072xb.s.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Discovery.dir/BSP/STM32F072B-Discovery/stm32f072b_discovery.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery/stm32f072b_discovery.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery/stm32f072b_discovery.c",
+  "output": "Drivers/CMakeFiles/STM32_Discovery.dir/BSP/STM32F072B-Discovery/stm32f072b_discovery.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Discovery.dir/BSP/STM32F072B-Discovery/stm32f072b_discovery_eeprom.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery/stm32f072b_discovery_eeprom.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery/stm32f072b_discovery_eeprom.c",
+  "output": "Drivers/CMakeFiles/STM32_Discovery.dir/BSP/STM32F072B-Discovery/stm32f072b_discovery_eeprom.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/STM32_Discovery.dir/BSP/STM32F072B-Discovery/stm32f072b_discovery_gyroscope.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery/stm32f072b_discovery_gyroscope.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/BSP/STM32F072B-Discovery/stm32f072b_discovery_gyroscope.c",
+  "output": "Drivers/CMakeFiles/STM32_Discovery.dir/BSP/STM32F072B-Discovery/stm32f072b_discovery_gyroscope.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers/SEGGER",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/SEGGER/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/SEGGER_RTT.dir/Src/SEGGER_RTT.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/SEGGER/Src/SEGGER_RTT.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/SEGGER/Src/SEGGER_RTT.c",
+  "output": "Drivers/SEGGER/CMakeFiles/SEGGER_RTT.dir/Src/SEGGER_RTT.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Drivers/SEGGER",
+  "command": "/usr/bin/arm-none-eabi-gcc -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Drivers/SEGGER/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/SEGGER_RTT.dir/Src/SEGGER_RTT_printf.c.obj -c \"/home/annie/Documents/School/Async Radio/Drivers/SEGGER/Src/SEGGER_RTT_printf.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Drivers/SEGGER/Src/SEGGER_RTT_printf.c",
+  "output": "Drivers/SEGGER/CMakeFiles/SEGGER_RTT.dir/Src/SEGGER_RTT_printf.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Libraries",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Libraries/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/Libraries.dir/Src/gpio_lib.c.obj -c \"/home/annie/Documents/School/Async Radio/Libraries/Src/gpio_lib.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Libraries/Src/gpio_lib.c",
+  "output": "Libraries/CMakeFiles/Libraries.dir/Src/gpio_lib.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/Libraries",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/Libraries/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/Libraries.dir/Src/usart_lib.c.obj -c \"/home/annie/Documents/School/Async Radio/Libraries/Src/usart_lib.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/Libraries/Src/usart_lib.c",
+  "output": "Libraries/CMakeFiles/Libraries.dir/Src/usart_lib.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/lab1",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/lab1/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\" -I\"/home/annie/Documents/School/Async Radio/Libraries/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/lab1.dir/Src/lab1.c.obj -c \"/home/annie/Documents/School/Async Radio/lab1/Src/lab1.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/lab1/Src/lab1.c",
+  "output": "lab1/CMakeFiles/lab1.dir/Src/lab1.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/lab1",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/lab1/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\" -I\"/home/annie/Documents/School/Async Radio/Libraries/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/lab1.dir/Src/stm32f0xx_hal_msp.c.obj -c \"/home/annie/Documents/School/Async Radio/lab1/Src/stm32f0xx_hal_msp.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/lab1/Src/stm32f0xx_hal_msp.c",
+  "output": "lab1/CMakeFiles/lab1.dir/Src/stm32f0xx_hal_msp.c.obj"
+},
+{
+  "directory": "/home/annie/Documents/School/Async Radio/lab1",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F072xB -DUSE_HAL_DRIVER -I\"/home/annie/Documents/School/Async Radio/lab1/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/STM32F0xx_HAL_Driver/Inc\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Device/ST/STM32F0xx/Include\" -I\"/home/annie/Documents/School/Async Radio/Drivers/CMSIS/Include\" -I\"/home/annie/Documents/School/Async Radio/Core/Inc\" -I\"/home/annie/Documents/School/Async Radio/Libraries/Inc\"  -mcpu=cortex-m0  -Wall -fdata-sections -ffunction-sections -O0 -g3 -std=gnu11 -o CMakeFiles/lab1.dir/Src/stm32f0xx_it.c.obj -c \"/home/annie/Documents/School/Async Radio/lab1/Src/stm32f0xx_it.c\"",
+  "file": "/home/annie/Documents/School/Async Radio/lab1/Src/stm32f0xx_it.c",
+  "output": "lab1/CMakeFiles/lab1.dir/Src/stm32f0xx_it.c.obj"
+}
+]
