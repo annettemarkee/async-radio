@@ -1,6 +1,7 @@
 add_library(Libraries
     Src/gpio_lib.c
     Src/usart_lib.c
+    Src/adc_lib.c
 )
 
 target_include_directories(Libraries PUBLIC
