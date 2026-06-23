@@ -5,6 +5,7 @@
 #include "stm32f0xx_hal.h"
 #include "gpio_lib.h"
 #include "usart_lib.h"
+#include "adc_lib.h"
 
 const USART_CMD commands[] = {
   {"help",      USART_CMD_HELP, "List all terminal commands."},
@@ -23,6 +24,7 @@ int main(void) {
   InitLEDs();
   USART_Init(PB10_PB11, 115200);
   USART_CMD_REG(commands, commands_count);
+  ADC_Init(ADC_In14, 8);
 
   while (1)
   {
