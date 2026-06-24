@@ -23,8 +23,6 @@ void ADC_Init(ADC_Input_Pin pin, uint8_t resolution) {
 
     __HAL_RCC_ADC1_CLK_ENABLE();
 
-    // Operating mode
-
     uint8_t res;
     switch (resolution) {
         case 6:
@@ -51,8 +49,17 @@ void ADC_Init(ADC_Input_Pin pin, uint8_t resolution) {
     ADC1->CHSELR |= (0b1 << pin.channel); // Select channel of pin
 
     // Calibration
+    ADC1->CR |= (0b1 << 31); // Start calibration
+    while ((ADC1->CR & ADC_CR_ADCAL) != 0) { } // Wait for calibration
 
     // Peripheral enable
+    ADC1->CR |= (0b1 << 0); // ADC enable
+    ADC1->CR |= (0b1 << 2); // ADC start
 
     // ADC Conversion
+    // After conversion, transfer data from ADC_DR to other location
+    // EOC indicates end of conversion
+        // EOCIE causes interrupt
+    // EOS indicates end of sequence
+        // EOSIE causes interrupt
 }
