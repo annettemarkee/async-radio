@@ -6,6 +6,7 @@
 #include "usart_lib.h"
 
 static uint16_t calibration_factor;
+static uint16_t conversion_data;
 
 /*
  * Initializes the ADC and its input pin.
@@ -46,12 +47,11 @@ void ADC_Init(ADC_Input_Pin pin, ADC_Resolution res) {
 
     // Start ADC
     ADC1->CR |= (0b1 << 0); // ADC enable
-    ADC1->CR |= (0b1 << 2); // ADC start
+    ADC1->CR |= (0b1 << 2); // ADC start    
 
-    // ADC Conversion
-    // After conversion, transfer data from ADC_DR to other location
-    // EOC indicates end of conversion
-        // EOCIE causes interrupt
-    // EOS indicates end of sequence
-        // EOSIE causes interrupt
+    while (1) {
+        while ((ADC1->ISR & ADC_ISR_EOC_Msk) != 1) { } // Wait for conversion
+        conversion_data = ((ADC1->DR) & res.mask);
+        ADC1->ISR &= ~(0b1 << ADC_ISR_EOC_Pos);
+    }
 }
