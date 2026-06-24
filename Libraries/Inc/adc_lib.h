@@ -12,11 +12,6 @@
 #define ADC_TRIGGER_FALLING (0b10)
 #define ADC_TRIGGER_BOTH    (0b11)
 
-#define ADC_RES_6b  (0b11)
-#define ADC_RES_8b  (0b10)
-#define ADC_RES_10b (0b01)
-#define ADC_RES_12b (0b00)
-
 typedef struct {
     uint16_t        pin_number;
     GPIO_TypeDef    *gpio_type;
@@ -25,6 +20,17 @@ typedef struct {
 
 static const ADC_Input_Pin ADC_In14 = {GPIO_PIN_4, GPIOC, 14}; // PC4
 
-void ADC_Init(ADC_Input_Pin pin, uint8_t resolution);
+typedef struct {
+    uint8_t  bits;
+    uint8_t  code;
+    uint16_t mask;
+} ADC_Resolution;
+
+static const ADC_Resolution ADC_Res_6  = {6,  0b11, 0b111111};
+static const ADC_Resolution ADC_Res_8  = {8,  0b10, 0b11111111};
+static const ADC_Resolution ADC_Res_10 = {10, 0b01, 0b1111111111};
+static const ADC_Resolution ADC_Res_12 = {12, 0b00, 0b111111111111};
+
+void ADC_Init(ADC_Input_Pin pin, ADC_Resolution res);
 
 #endif

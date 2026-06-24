@@ -5,54 +5,46 @@
 #include "gpio_lib.h"
 #include "usart_lib.h"
 
+static uint16_t calibration_factor;
+
 /*
  * Initializes the ADC and its input pin.
  * 
  * Parameters:
- * - pin       : ADC input pin to be initialized.
- * - resolution: Data resolution of conversion (6, 8, 10, or 12 bits).
+ * - pin     : ADC input pin to be initialized.
+ * - res     : Data resolution struct, ADC_Res_N.
  */
-void ADC_Init(ADC_Input_Pin pin, uint8_t resolution) {
-    GPIO_InitTypeDef adcInput = {pin.pin_number,
-        GPIO_MODE_ANALOG,
-        GPIO_NOPULL,
-        GPIO_SPEED_FREQ_LOW
-    };
+void ADC_Init(ADC_Input_Pin pin, ADC_Resolution res) {
 
-    InitGPIO(pin.gpio_type, &pin.pin_number);
+    // Initialize ADC input pin
+    {
+        GPIO_InitTypeDef adcInput = {pin.pin_number,
+            GPIO_MODE_ANALOG,
+            GPIO_NOPULL,
+            GPIO_SPEED_FREQ_LOW
+        };
+    
+        InitGPIO(pin.gpio_type, &pin.pin_number);
+    }
 
     __HAL_RCC_ADC1_CLK_ENABLE();
 
-    uint8_t res;
-    switch (resolution) {
-        case 6:
-            res = 0b11;
-            break;
-        case 8:
-            res = 0b10;
-            break;
-        case 10:
-            res = 0b01;
-            break;
-        case 12:
-            res = 0b00;
-            break;
-        default:
-            USART_Print("Invalid ADC resolution: %d. Defaulting to 6-bit.", resolution);
-            res = 0b11;   
+    // Configure ADC
+    {
+        ADC1->CFGR1 |=  (res.code << 3);  // Data resolution
+        ADC1->CFGR1 &= ~(0b1      << 5);  // Data is right-aligned
+        ADC1->CFGR1 |=  (0b00     << 10); // External trigger disable
+        ADC1->CFGR1 &= ~(0b1      << 16); // Continuous conversion mode
+
+        ADC1->CHSELR |= (0b1 << pin.channel); // Select channel of pin
     }
 
-    ADC1->CFGR1 |=  (res  << 3);  // Data resolution
-    ADC1->CFGR1 |=  (0b00 << 10); // External trigger disable
-    ADC1->CFGR1 &= ~(0b1  << 16); // Continuous conversion mode
-
-    ADC1->CHSELR |= (0b1 << pin.channel); // Select channel of pin
-
-    // Calibration
+    // Calibrate ADC
     ADC1->CR |= (0b1 << 31); // Start calibration
     while ((ADC1->CR & ADC_CR_ADCAL) != 0) { } // Wait for calibration
+    calibration_factor = ((ADC1->DR) & res.mask);
 
-    // Peripheral enable
+    // Start ADC
     ADC1->CR |= (0b1 << 0); // ADC enable
     ADC1->CR |= (0b1 << 2); // ADC start
 

@@ -24,7 +24,7 @@ int main(void) {
   InitLEDs();
   USART_Init(PB10_PB11, 115200);
   USART_CMD_REG(commands, commands_count);
-  ADC_Init(ADC_In14, 8);
+  ADC_Init(ADC_In14, ADC_Res_8);
 
   while (1)
   {
