@@ -1,6 +1,7 @@
 #include "stm32f0xx_hal.h"
 #include "stm32f0xx_it.h"
 #include "usart_lib.h"
+#include "adc_lib.h"
 
 /******************************************************************************/
 /*           Cortex-M0 Processor Interruption and Exception Handlers          */
@@ -60,4 +61,10 @@ char input[40];
 void USART3_4_IRQHandler(void)
 {
   USART_Tick(&key_count, input);
+}
+
+void ADC1_IRQHandler(void)
+{
+  ADC_Save_Data();
+  ADC1->ISR &= ~(0b1 << ADC_ISR_EOC_Pos); // Clear interrupt flag
 }

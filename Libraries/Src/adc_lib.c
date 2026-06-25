@@ -7,6 +7,7 @@
 
 static uint16_t calibration_factor;
 static uint16_t conversion_data;
+static ADC_Resolution chosen_resolution;
 
 /*
  * Initializes the ADC and its input pin.
@@ -16,6 +17,8 @@ static uint16_t conversion_data;
  * - res     : Data resolution struct, ADC_Res_N.
  */
 void ADC_Init(ADC_Input_Pin pin, ADC_Resolution res) {
+
+    chosen_resolution = res;
 
     // Initialize ADC input pin
     {
@@ -45,13 +48,20 @@ void ADC_Init(ADC_Input_Pin pin, ADC_Resolution res) {
     while ((ADC1->CR & ADC_CR_ADCAL) != 0) { } // Wait for calibration
     calibration_factor = ((ADC1->DR) & res.mask);
 
+    // Enable interrupts
+    ADC1->IER |= (0b1 << 2); // Enable EOC interrupts
+    NVIC_EnableIRQ(ADC1_COMP_IRQn);
+    NVIC_SetPriority(ADC1_COMP_IRQn, 2);
+
     // Start ADC
     ADC1->CR |= (0b1 << 0); // ADC enable
-    ADC1->CR |= (0b1 << 2); // ADC start    
+    ADC1->CR |= (0b1 << 2); // ADC start
+}
 
-    while (1) {
-        while ((ADC1->ISR & ADC_ISR_EOC_Msk) != 1) { } // Wait for conversion
-        conversion_data = ((ADC1->DR) & res.mask);
-        ADC1->ISR &= ~(0b1 << ADC_ISR_EOC_Pos);
-    }
+void ADC_Save_Data() {
+    conversion_data = ((ADC1->DR) & chosen_resolution.mask);
+}
+
+uint16_t ADC_Get_Data() {
+    return conversion_data;
 }

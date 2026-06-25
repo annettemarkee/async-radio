@@ -31,6 +31,8 @@ static const ADC_Resolution ADC_Res_8  = {8,  0b10, 0b11111111};
 static const ADC_Resolution ADC_Res_10 = {10, 0b01, 0b1111111111};
 static const ADC_Resolution ADC_Res_12 = {12, 0b00, 0b111111111111};
 
-void ADC_Init(ADC_Input_Pin pin, ADC_Resolution res);
+void        ADC_Init(ADC_Input_Pin pin, ADC_Resolution res);
+void        ADC_Save_Data(void);
+uint16_t    ADC_Get_Data(void);
 
 #endif
