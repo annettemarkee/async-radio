@@ -7,10 +7,17 @@
 #include "usart_lib.h"
 #include "adc_lib.h"
 
+void ADC_CMD_PRINT(void);
+
 const USART_CMD commands[] = {
   {"help",      USART_CMD_HELP, "List all terminal commands."},
+  {"adc_read",  ADC_CMD_PRINT,  "Print data from the ADC."},
 };
 const uint8_t   commands_count = sizeof(commands) / sizeof(commands[0]);
+
+void ADC_CMD_PRINT(void) {
+  USART_Print(ADC_Get_Data());
+}
 
 /**
   * @brief  The application entry point.
